@@ -10,7 +10,7 @@ def Client():
    
     s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-    host=socket.gethostname()
+    host=socket.gethostname()#本地连接
     port=1289
     Sever_condition=False
 
